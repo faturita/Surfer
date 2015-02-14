@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class NSSurferViewController;
+#import "NSSurferViewController.h"
+
 @interface NSSurferAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -18,5 +22,7 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+@property (strong, nonatomic) NSSurferViewController *viewController;
 
 @end

@@ -22,6 +22,12 @@
 		62AD83AF189C7404009590D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD8393189C7403009590D7 /* CoreData.framework */; };
 		62AD83B7189C7404009590D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62AD83B5189C7404009590D7 /* InfoPlist.strings */; };
 		62AD83B9189C7404009590D7 /* SurferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD83B8189C7404009590D7 /* SurferTests.m */; };
+		62AD83C5189C9B42009590D7 /* NSSurferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD83C3189C9B42009590D7 /* NSSurferViewController.m */; };
+		62AD83C6189C9B42009590D7 /* NSSurferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62AD83C4189C9B42009590D7 /* NSSurferViewController.xib */; };
+		62AD83C8189CA97D009590D7 /* st340040.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62AD83C7189CA97D009590D7 /* st340040.jpg */; };
+		62AD83CF189DB2D6009590D7 /* plus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 62AD83CE189DB2D6009590D7 /* plus.jpeg */; };
+		62AD83D1189DB2E3009590D7 /* iphone-plus-sign-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62AD83D0189DB2E3009590D7 /* iphone-plus-sign-icon.jpg */; };
+		62AD83D4189E15F5009590D7 /* Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 62AD83D3189E15F5009590D7 /* Password.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,14 @@
 		62AD83B4189C7404009590D7 /* SurferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SurferTests-Info.plist"; sourceTree = "<group>"; };
 		62AD83B6189C7404009590D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62AD83B8189C7404009590D7 /* SurferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurferTests.m; sourceTree = "<group>"; };
+		62AD83C2189C9B42009590D7 /* NSSurferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSurferViewController.h; sourceTree = "<group>"; };
+		62AD83C3189C9B42009590D7 /* NSSurferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSurferViewController.m; sourceTree = "<group>"; };
+		62AD83C4189C9B42009590D7 /* NSSurferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSSurferViewController.xib; sourceTree = "<group>"; };
+		62AD83C7189CA97D009590D7 /* st340040.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = st340040.jpg; sourceTree = "<group>"; };
+		62AD83CE189DB2D6009590D7 /* plus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = plus.jpeg; sourceTree = "<group>"; };
+		62AD83D0189DB2E3009590D7 /* iphone-plus-sign-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-plus-sign-icon.jpg"; sourceTree = "<group>"; };
+		62AD83D2189E15F5009590D7 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
+		62AD83D3189E15F5009590D7 /* Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Password.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,9 @@
 		62AD8381189C7403009590D7 = {
 			isa = PBXGroup;
 			children = (
+				62AD83C2189C9B42009590D7 /* NSSurferViewController.h */,
+				62AD83C3189C9B42009590D7 /* NSSurferViewController.m */,
+				62AD83C4189C9B42009590D7 /* NSSurferViewController.xib */,
 				62AD8395189C7403009590D7 /* Surfer */,
 				62AD83B2189C7404009590D7 /* SurferTests */,
 				62AD838C189C7403009590D7 /* Frameworks */,
@@ -118,6 +135,8 @@
 				62AD839E189C7403009590D7 /* NSSurferAppDelegate.h */,
 				62AD839F189C7403009590D7 /* NSSurferAppDelegate.m */,
 				62AD83A4189C7403009590D7 /* Images.xcassets */,
+				62AD83D2189E15F5009590D7 /* Password.h */,
+				62AD83D3189E15F5009590D7 /* Password.m */,
 				62AD83A1189C7403009590D7 /* Surfer.xcdatamodeld */,
 				62AD8396189C7403009590D7 /* Supporting Files */,
 			);
@@ -127,6 +146,9 @@
 		62AD8396189C7403009590D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				62AD83D0189DB2E3009590D7 /* iphone-plus-sign-icon.jpg */,
+				62AD83CE189DB2D6009590D7 /* plus.jpeg */,
+				62AD83C7189CA97D009590D7 /* st340040.jpg */,
 				62AD8397189C7403009590D7 /* Surfer-Info.plist */,
 				62AD8398189C7403009590D7 /* InfoPlist.strings */,
 				62AD839B189C7403009590D7 /* main.m */,
@@ -229,7 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AD83D1189DB2E3009590D7 /* iphone-plus-sign-icon.jpg in Resources */,
+				62AD83C6189C9B42009590D7 /* NSSurferViewController.xib in Resources */,
+				62AD83C8189CA97D009590D7 /* st340040.jpg in Resources */,
 				62AD839A189C7403009590D7 /* InfoPlist.strings in Resources */,
+				62AD83CF189DB2D6009590D7 /* plus.jpeg in Resources */,
 				62AD83A5189C7403009590D7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +277,8 @@
 			files = (
 				62AD83A0189C7403009590D7 /* NSSurferAppDelegate.m in Sources */,
 				62AD83A3189C7403009590D7 /* Surfer.xcdatamodeld in Sources */,
+				62AD83C5189C9B42009590D7 /* NSSurferViewController.m in Sources */,
+				62AD83D4189E15F5009590D7 /* Password.m in Sources */,
 				62AD839C189C7403009590D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

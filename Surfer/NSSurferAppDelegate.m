@@ -20,6 +20,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    // tie the window controller to the window object assosiated with the app delegate.
+    
+    self.viewController = [[NSSurferViewController alloc] initWithNibName:@"NSSurferViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
+    
     return YES;
 }
 
